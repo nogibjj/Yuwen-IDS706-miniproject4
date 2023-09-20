@@ -1,4 +1,4 @@
-## Duke IDS 706 Data Engineering mini project 2  
+## Duke IDS 706 Data Engineering mini project 4
 ---
 
 [![cicd](https://github.com/nogibjj/Yuwen-IDS706-miniproject4/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Yuwen-IDS706-miniproject4/actions/workflows/cicd.yml)
@@ -17,7 +17,7 @@ You can find the relevant code in the following files:
 
 ---
 
-Three functions (load_data, test_descriptive_stats, test_plot_hisogram) checks the avaibility of python scripts with pandas works properly.
+Three functions (load_data, test_descriptive_stats, test_plot_hisogram) check the availability of Python scripts with pandas works properly.
 
 **Modification**
 
@@ -34,7 +34,8 @@ Three functions (load_data, test_descriptive_stats, test_plot_hisogram) checks t
 ### Make Test Pass
 ![](/output/pass_test.png)
 
-### Pass Make Test
+### Github Actions Matrix
+![](/output/python_matrix.png)
 
 ---
 
