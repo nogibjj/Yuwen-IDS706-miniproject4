@@ -1,9 +1,11 @@
 ## Duke IDS 706 Data Engineering mini project 2  
 ---
 
+[![cicd](https://github.com/nogibjj/Yuwen-IDS706-miniproject4/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Yuwen-IDS706-miniproject4/actions/workflows/cicd.yml)
+
 **Summary**
 
-The objective of Week2 mini project was to create a script utilizing pandas for descriptive statistics. This script has been integrated with the Python CiCd automation template: https://github.com/Candice1121/IDS706-template.
+The objective of Week 4 mini project was to create a GitHub Actions Matrix Build that tests more than one than one version of Python. This script has been integrated with the Python CiCd automation template: https://github.com/Candice1121/IDS706-template.
 
 ---
 
@@ -15,9 +17,36 @@ You can find the relevant code in the following files:
 
 ---
 
-These functions enable loading iris dataset and calculate its descriptive statistics for this dataset.
+Three functions (load_data, test_descriptive_stats, test_plot_hisogram) checks the avaibility of python scripts with pandas works properly.
 
 **Modification**
 
-1. update requirements.txt for pandas newest version
-2. update python file
+1. Update main.py to integrate a data visualization function to plot histogram
+2. Update workflow cicd.yml to create a matrix with three versions of python
+
+---
+
+**Visualization**
+
+### Pandas Descriptive Statistics
+![](/output/visualization_hist.png)
+
+### Make Test Pass
+![](/output/pass_test.png)
+
+### Pass Make Test
+
+---
+
+**Run**
+
+install code: make install
+
+lint code: make lint
+
+format code: make format
+
+test code: make test
+
+run all steps: make all
+
